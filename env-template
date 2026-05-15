@@ -1,0 +1,12 @@
+REGION         = ""
+DB_INSTANCE_ID = ""
+DB_REPLICA_ID  = ""
+DB_NAME        = "demo"
+DB_ADMIN_USER  = "demo_admin"
+DB_PASSWORD    = ""   # use Secrets Manager in production
+DB_IAM_USER    = "demo_iam"         # created during populate; used in experiment A
+DB_PORT        = 5432
+INSTANCE_CLASS = "db.t3.micro"
+PG_VERSION     = ""
+SG_NAME        = ""
+PG_GROUP_NAME  = ""   # custom parameter group
